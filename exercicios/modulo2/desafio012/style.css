@@ -20,8 +20,8 @@ html, body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
-    padding: 0px;
-    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 header {
@@ -36,6 +36,7 @@ header > h1 {
     font-family: var(--fonte2);
     font-weight: normal;
     font-size: 5em;
+    margin-top: 0px;
 }
 
 header > p {
@@ -56,7 +57,7 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 2.2em;
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 2em;
@@ -71,7 +72,9 @@ section.imagem {
     background-color: rgb(44, 44, 44);
     color: white;
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
     box-shadow: inset 0px 6px 20px rgba(0, 0, 0, 0.438);
 }
 
@@ -81,11 +84,11 @@ section.imagem {
 }
 
 section.imagem > p {
-    /*display: inline-block;*/
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.432);
-    /*width: 400px;*/
-    text-align: right;
+    background-color: rgba(0, 0, 0, 0.151);
+    width: fit-content;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.356);
+    margin-left: 150vh;
 }
 
 footer {
