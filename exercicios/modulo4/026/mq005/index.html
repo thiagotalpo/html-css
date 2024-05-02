@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Opção1</a></li>
+                    <li><a href="#">Opção2</a></li>
+                    <li><a href="#">Opção3</a></li>
+                    <li><a href="#">Opção4</a></li>
+                    <li><a href="#">Opção5</a></li>
+                </ul>
+            </nav>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando responsividade</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident tenetur omnis magni! Corrupti aperiam, voluptatum, recusandae eius at amet perferendis fugiat necessitatibus ut aliquid corporis cupiditate, laudantium inventore quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus minus facilis facere labore quisquam, iure incidunt officia voluptatibus nihil sed blanditiis dignissimos minima aliquid id rerum alias ipsum sunt ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto exercitationem, dolores totam cum facilis consequatur ratione, sit, autem provident modi eligendi odio! Minus inventore dolorum beatae consequuntur mollitia ut?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos porro nemo vel nostrum cumque. Suscipit autem totam veniam provident tenetur culpa, quaerat recusandae corrupti praesentium incidunt quia, magni porro blanditiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque aliquid dolore beatae unde modi ipsum assumenda minima adipisci corporis labore quam, laboriosam necessitatibus eveniet, minus vero, voluptate hic deserunt?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block'){
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
